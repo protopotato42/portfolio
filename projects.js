@@ -3,8 +3,8 @@ const SITE_CONFIG = {
   logo: "ПОРТФОЛИО",
   title: "Интерактивные веб-приложения, 3D и Python-бэкенд",
   subtitle: "Проектирую и собираю браузерные игры, 3D-симуляторы, утилиты и REST API под ключ.",
-  githubUrl: "", // например: "https://github.com/твой-ник"
-  kworkUrl: ""   // например: "https://kwork.ru/user/твой-ник"
+  githubUrl: "https://github.com/protopotato42", // например: "https://github.com/твой-ник"
+  telegramUrl: "https://t.me/Protoppotato"   // например: "https://kwork.ru/user/твой-ник"
 };
 
 // Список проектов. Чтобы добавить новый — просто скопируй любой блок { ... } и вставь ниже:
@@ -47,3 +47,4 @@ const PROJECTS = [
     tags: ["Canvas 2D", "Симуляция", "JavaScript"]
   }
 ];
+SITE_CONFIG.telegramUrl = "https://t.me/Protoppotato";
