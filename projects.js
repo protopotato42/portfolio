@@ -1,14 +1,18 @@
-// Настройки шапки и ссылок (после регистрации на GitHub и Kwork просто вставь сюда ссылки)
 const SITE_CONFIG = {
   logo: "ПОРТФОЛИО",
   title: "Интерактивные веб-приложения, 3D и Python-бэкенд",
   subtitle: "Проектирую и собираю браузерные игры, 3D-симуляторы, утилиты и REST API под ключ.",
-  githubUrl: "https://github.com/protopotato42", // например: "https://github.com/твой-ник"
-  telegramUrl: "https://t.me/Protoppotato"   // например: "https://kwork.ru/user/твой-ник"
+  githubUrl: "https://github.com/protopotato42",
+  telegramUrl: "https://t.me/Protoppotato"
 };
 
-// Список проектов. Чтобы добавить новый — просто скопируй любой блок { ... } и вставь ниже:
 const PROJECTS = [
+  {
+    title: "ДО ШЕСТИ",
+    description: "Браузерный 3D-хоррор на выживание в планетарии: 5 ночей, камеры наблюдения и 3 противника с разными механиками защиты. Полноценная 3D-сцена с тенями, процедурной генерацией звука и резервным CSS 3D-движком — работает полностью на коде без внешних ассетов.",
+    url: "https://until-six.netlify.app",
+    tags: ["Three.js", "WebGL", "WebAudio API", "JavaScript", "CSS 3D"]
+  },
   {
     title: "Осада Маяка",
     description: "Браузерная стратегия в жанре Tower Defense с волнами противников, прокачкой и глобальной таблицей рекордов на собственном Python/Flask сервере.",
